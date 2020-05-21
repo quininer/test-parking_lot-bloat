@@ -11,4 +11,6 @@ edition = "2018"
 parking_lot = { git = "https://github.com/quininer/parking_lot", branch = "inline-less" }
 
 [features]
+nightly = [ "parking_lot/nightly" ]
+deadlock_detection = [ "parking_lot/deadlock_detection" ]
 inline-less = [ "parking_lot/inline-less" ]
